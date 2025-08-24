@@ -1,7 +1,6 @@
 import { ArrowRight } from "lucide-react";
-import React from "react";
 import hero from "../../assets/hero.png";
-import "./Hero.scss"
+import "./Hero.scss";
 
 const Hero = () => {
   return (

@@ -47,3 +47,34 @@
     }
   }
 }
+
+@media (max-width: 1024px) {
+  .services {
+    &-wrapper {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 60px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .services {
+    &__title {
+      h2 {
+        font-size: 32px;
+        line-height: 40px;
+      }
+    }
+
+    &-wrapper {
+      grid-template-columns: 1fr;
+      gap: 40px;
+    }
+
+    &-item {
+      h3 {
+        font-size: 20px;
+      }
+    }
+  }
+}

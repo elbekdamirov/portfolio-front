@@ -2,6 +2,7 @@
   text-align: center;
 
   h3 {
+    margin-top: 77px;
     font-weight: 400;
     font-size: 18px;
   }
@@ -11,5 +12,6 @@
     justify-content: center;
     margin-top: 45px;
     gap: 100px;
+    flex-wrap: wrap;
   }
 }

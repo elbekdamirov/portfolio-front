@@ -75,3 +75,36 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .testimonials {
+    &-wrapper {
+      flex-direction: column;
+      text-align: center;
+      gap: 30px;
+    }
+
+    &__image {
+      min-width: unset;
+      max-width: 350px;
+      margin: 0 auto;
+    }
+
+    &-body {
+      min-height: auto;
+      max-width: 100%;
+
+      &__quote {
+        p {
+          font-size: 20px;
+          line-height: 28px;
+        }
+      }
+
+      &__name {
+        flex-direction: column;
+        gap: 15px;
+      }
+    }
+  }
+}

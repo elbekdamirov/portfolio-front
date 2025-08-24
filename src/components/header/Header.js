@@ -1,6 +1,5 @@
-import React from "react";
 import "./Header.scss";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Menu } from "lucide-react";
 import logo from "../../assets/logo.png";
 
 const Header = () => {
@@ -13,6 +12,11 @@ const Header = () => {
               <img src={logo} alt="" />
             </a>
           </div>
+
+          <button className="navbar__hamburger">
+            <Menu size={28} />
+          </button>
+
           <ul className="navbar__collection">
             <li>
               <a href="#">About</a>

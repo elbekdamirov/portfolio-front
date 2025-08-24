@@ -1,4 +1,3 @@
-import React from "react";
 import "./Testimonials.scss";
 import testimonials from "../../assets/testimonials.png";
 import vector from "../../assets/vector.png";

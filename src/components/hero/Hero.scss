@@ -49,3 +49,38 @@
     min-width: 500px;
   }
 }
+
+@media (max-width: 900px) {
+  .hero {
+    &-wrapper {
+      flex-direction: column-reverse;
+      text-align: center;
+    }
+
+    &-body {
+      h1 {
+        font-size: 36px;
+        line-height: 45px;
+      }
+      h1:nth-child(1) {
+        font-size: 36px;
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 24px;
+      }
+
+      &__btns {
+        align-items: center;
+        justify-content: center;
+      }
+    }
+
+    &-image {
+      min-width: auto;
+      width: 100%;
+      margin-bottom: 30px;
+    }
+  }
+}
