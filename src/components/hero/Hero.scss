@@ -1,0 +1,51 @@
+.hero {
+  &-wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+  }
+
+  &-body {
+    h1 {
+      font-weight: 700;
+      font-size: 72px;
+      line-height: 82.5px;
+    }
+
+    h1:nth-child(1) {
+      color: #ff8a56;
+      font-weight: 700;
+      font-size: 72px;
+    }
+
+    p {
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 33px;
+      color: #666666;
+      margin-top: 27px;
+    }
+
+    &__btns {
+      display: flex;
+      margin-top: 38px;
+
+      button {
+        color: white;
+        background: black;
+        padding: 20px 25px;
+      }
+
+      span a {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        padding: 20px 25px;
+      }
+    }
+  }
+
+  &-image {
+    min-width: 500px;
+  }
+}
